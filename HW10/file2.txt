@@ -1,0 +1,3 @@
+The length of created array = 41
+The longest line in file1.txt = 247
+Orysia Rusanovska
