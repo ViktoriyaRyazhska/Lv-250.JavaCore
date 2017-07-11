@@ -6,3 +6,8 @@ FX - http://code.makery.ch/library/javafx-8-tutorial/uk/part1/
 AWT - http://www.javatpoint.com/java-awt
 
 Swing - http://www.javatpoint.com/java-swing
+
+
+Питання на співбесіду Java Junior Developer.
+https://jsehelper.blogspot.com/2016/01/blog-post_59.html
+jsehelper.blogspot.com
