@@ -1,0 +1,18 @@
+Row 1 symbols = 24
+Row 2 symbols = 16
+Row 3 symbols = 0
+Row 4 symbols = 20
+Row 5 symbols = 65
+Row 6 symbols = 61
+Row 7 symbols = 58
+Row 8 symbols = 47
+Row 9 symbols = 56
+Row 10 symbols = 57
+Row 11 symbols = 45
+Row 12 symbols = 57
+Row 13 symbols = 65
+Row 14 symbols = 48
+Max symbols in the line 65
+
+Ilina Kseniya Vitaliivna
+Birthdate: 16-05
