@@ -1,0 +1,18 @@
+Name: Lozynskyi Nazar Ihorovych
+Birthdate: 25.01.1996
+
+Education: 2013 - 2017
+National University "Lviv Polytechnic". Institute
+of computer technologies, automation and metrology. Cathedra of 
+"Computerized Automation Systems". Bachelor, specialty "Systems engineering".
+
+Employment:
+December 2016 - continue to work
+Svitovyr Automatic Ltd. Engineer of automated systems of production 
+management. Responsibilities: Electrical design of switchboards 
+and automation boards; searching relevant components in the market of 
+Ukraine and abroad.
+
+Key skills:
+Knowledge of Java Core; knowledge of basic operators of database 
+management systems such as INSERT, DELETE, SELECT, UPDATE, etc.
