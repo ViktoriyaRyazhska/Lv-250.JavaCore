@@ -1,0 +1,9 @@
+Row 1 symbols = 29
+Row 2 symbols = 16
+Row 3 symbols = 0
+Row 4 symbols = 0
+Row 5 symbols = 389
+Max symbols in the line 389
+
+Travka Nazariy Rostyslavovych
+Birthdate: 03-06
