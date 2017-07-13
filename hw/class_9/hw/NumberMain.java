@@ -8,32 +8,33 @@ import java.io.InputStreamReader;
  * Created by User on 09.07.2017.
  */
 public class NumberMain {
+    int number;
     public static void main(String[] args)throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        NumberMain nm = new NumberMain();
 
+        int a = 0;
+        int b = 0;
         System.out.println("Input start: ");
         try {
-            int a = Integer.parseInt(reader.readLine());
+            a = Integer.parseInt(reader.readLine());
             System.out.println("Input end: ");
-            int b = Integer.parseInt(reader.readLine());
+            b = Integer.parseInt(reader.readLine());
             System.out.println("and now input your number");
-            int n = Integer.parseInt(reader.readLine());
+            nm.number = Integer.parseInt(reader.readLine());
         }catch (NumberFormatException e){
             System.err.println(e);
         }
 
-        n.readNamber(a, b);
+        nm.readNumber(a, b);
 
 
     }
-    public static int readNumber(int start, int end) throws IOException {
+    public int readNumber(int start, int end) throws IOException {
 
-            if (this >= start && this <= end)
-                return this;
+            if (this.number >= start && this.number <= end)
+                return this.number;
             return 0;
     }
-    public static void main(){
-        readNumber(1, 100);
 
-    }
 }

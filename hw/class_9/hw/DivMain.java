@@ -15,18 +15,24 @@ public class DivMain {
         try {
             a = Double.parseDouble(reader.readLine());
             b = Double.parseDouble(reader.readLine());
-        }catch (IOException i){}
+        }catch (IOException i){
+System.out.println(i);}
+
+        try{
 
         System.out.println(div(a, b));
-    }
-    public static double div(double a, double b){
-        double c = 0;
-        try {
-            c = a/b;
-        }catch (ArithmeticException w){
-            System.err.println(w);
+
+        }catch (Exception e){
+            System.err.println(e);
+        }finally {
+reader.close();
+        }
         }
 
+    public static double div(double a, double b) throws Exception{
+        double c = 0;
+        if ( b==0) throw new Exception();
+        c = a/b;
         return c;
     }
 }
