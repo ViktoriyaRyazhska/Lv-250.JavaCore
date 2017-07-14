@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+	background: url(1.png) no-repeat center center fixed;
+	position: fixed;
+	background-size: 70%;
+	background-color:#000000;
+	color:#ff0000;
+	text-align:center;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+	
+#loginform{
+	position: fixed;
+	margin-top: 565px;
+  	margin-left: 550px;
+	width: 100px;
+}
+	
+.input{
+	width: 200px;
+    padding:0px 20px;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background: #2d2d2d;
+	border:none;
+	border-radius:100px;
+	color: #ff0000;
+	font-size: 15px;
+	margin-top:5px;
+}
+
+.loginbutton{
+	display: none;
+}
+
+.myclass {
+	position: fixed;
+    left: 220px;
+    top: 100px;
+    font-size: 120px;
+    color: #ff0000;
+}
