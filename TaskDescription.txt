@@ -1,0 +1,381 @@
+********Classwork 1*************************************************************
+********Introduction************************************************************
+
+Create Console Application project in Java.
+In method main() write code for solving next tasks:
+
+1) Define integer variables a and b. Read values a and b from Console 
+and calculate: a + b, a - b, a * b, a / b. Output obtained results.
+
+2) Output question “How are you?“. Define string variable answer. 
+Read the value answer and output: “You are (answer)". 
+
+********Homework 1**************************************************************
+
+Install JDK and Eclipse.
+Create Java project.
+Create console application. In method main() write code for solving next tasks:
+
+1)Flower bed is shaped like a circle. Calculate the perimeter and area by 
+entering the radius. Output obtained results.
+
+2) Define String variables name and address. Output question 
+"What is your name?" Read the value name and output next question: 
+“Where are you live, (name)?". Read address and write whole information.
+
+3) Phone calls from three different countries are ñ1, ñ2 and ñ3 standard units 
+per minute. Talks continued t1, t2 and t3 minutes. How much computer will 
+count for each call separately and all talk together? Input all 
+source data from console, make calculations and output to the screen.
+
+Please register on UDEMY course "Java Tutorial for Complete Beginners": 
+https://www.udemy.com/java-tutorial/
+Complete lessons 1-7:
+
+********Classwork 2*************************************************************
+********GIT*********************************************************************
+
+Clone repository https://github.com/ViktoriyaRyazhska/Lv-250.JavaCore.git
+Add to file «Çàïîâ³ò.txt» few lines and commit it to local repository.
+Push it to remote repository.
+Make branch and checkout to it
+Add few lines in the file.
+Push changes to remote repo.
+Merge the branch with master
+Resolve conflicts, if needed
+View master log. 			
+
+********Homework 2**************************************************************
+
+Play on site https://try.github.io
+Please register on Learn Git Branching: 	
+http://learngitbranching.js.org/ 
+and play game
+Clone repo 
+https://github.com/ViktoriyaRyazhska/Lv-242.JavaCore.git 
+Create branch <your name>
+Push in this branch your project from HW 1
+
+********Classwork 3*************************************************************
+********Introduction to OOP*****************************************************
+
+Create Console Application project in Java.
+Add class Employee to the project.
+Class Employee should consists of
+	a) three private fields: name, rate and hours; 
+	b) static field totalSum
+	c) properties for access to these fields;
+	d) default constructor, constructor with 2 parameters (name and rate) 
+	and constructor with 3 parameters;
+	e) methods:
+salary - to calculate the salary of person (rate * hours)
+toString - to output information about employee
+changeRate - to change the rate of employee
+bonuses – to calculate 10% from salary
+In the method main() create 3 objects of Employee type. Input information 
+about them. Display the total hours of all workers to screen
+
+********Homework 3**************************************************************
+
+Create Console Application project in Java.
+Add class Person to the project.
+Class Person should consists of
+a) two private fields: name and birthYear (the birthday year) 
+b) properties for access to these fields
+c) default constructor and constructor with 2 parameters 
+d) methods:
+age - to calculate the age of person
+input - to input information about person
+output - to output information about person
+changeName - to change the name of person
+In the method main() create 5 objects of Person type and input information 
+about them.
+
+UDEMY course "Java Tutorial for Complete Beginners": 
+https://www.udemy.com/java-tutorial/
+Complete lessons 17-23
+
+********Classwork 4*************************************************************
+********Conditional Statements**************************************************
+
+1. Enter three numbers. Find out how many of them are odd.
+2. Enter the number of the day of the week. Display the name in three languages.
+3. Enter the name of the country. Print the name of the continent. 
+(Declare enum with names of continents)
+4. Create class Product with fields name, price and quantity.
+Create four instances of type Product. 
+Display the name and quantity of the most expensive item.
+Display the name of the items, which has the biggest quantity.
+
+********Homework 4**************************************************************
+
+UDEMY course "Java Tutorial for Complete Beginners": 
+https://www.udemy.com/java-tutorial/
+Complete lessons 10, 11, 13
+
+Short step-by-step online course: 
+https://www.udemy.com/junit-tutorial-for-beginners-with-java-examples/learn
+/v4/overview 
+
+1. Solve the next tasks:
+	a) read 3 float numbers and check: are they all belong to the range 
+	   [-5,5];
+	b) read 3 integer numbers and write max and min of them;
+	c) read number of HTTP Error (400, 401,402, ...) and write the name 
+	   of this error (Declare enum HTTPError)
+
+2. Ñreate class Dog with fields name, breed, age. 
+	a) Declare enum for field breed. 
+	b) Create 3 instances of type Dog. 
+	c) Check if there is no two dogs with the same name. 
+	d) Display the name and the kind of the oldest dog. 
+3. *Add Unit Tests to each task, publish code on GitHub
+
+********Classwork 5*************************************************************
+********Loops, Arrays***********************************************************
+
+1. Create an array of ten integers. Display 
+	- the biggest of these numbers;
+	- the sum of positive numbers in the array;
+	- the amount of negative numbers in the array.
+    What values there are more: negative or positive?
+2. Create a class Employee with fields name, department number, salary. 
+Create five objects of class Employee. Display
+	- all employees of a certain department (enter department number 
+	  in the console);
+	- arrange workers by the field salary in descending order.
+
+********Homework 5**************************************************************
+
+UDEMY course "Java Tutorial for Complete Beginners": 
+https://www.udemy.com/java-tutorial/
+Complete lessons 8, 9, 12, 14 - 16
+
+1. Ask user to enter the number of month. Read the value and write the amount 
+of days in this month (create array with amount days of each month).
+2. Enter 10 integer numbers. Calculate the sum of first 5 elements if they 
+are positive or product of last 5 element in the other case.
+3. Enter 5 integer numbers. Find 
+	- position of second positive number;
+	- minimum and its position in the array.
+4. Organize entering integers until the first negative number. Count the 
+product of all entered even numbers.
+5. Create class Car with fields type, year of production and engine capacity. 
+Create and initialize four instances of class Car. Display cars
+	- certain model year  (enter year in the console);
+	- ordered by the field year.
+
+********Classwork 6*************************************************************
+********Inheritance*************************************************************
+
+1. Create interface Animal with methods voice() and feed(). Create two 
+classes Cat and Dog, which implement this interface. Create array of Animal 
+and add some Cats and Dogs to it. Call voice() and feed() method for all of it.
+
+2. Create next structure. In abstract class Person with property name, 
+declare abstract method print(). In other classes in body of method print() 
+output text “I am a …”. In class Staff declare abstract method salary(). 
+In each concrete class create constant TYPE_PERSON. Output type of person 
+in each constructors. Create array of Person and add some Teachers, Cleaners 
+and Students to it. Call method print() for all of it. Call method salary() 
+for all Teachers and Cleaner.
+
+********Homework 6**************************************************************
+
+UDEMY course "Java Tutorial for Complete Beginners": 
+https://www.udemy.com/java-tutorial/
+Complete lessons 26-31
+
+1. Develop abstract class Bird with attributes feathers and layEggs and 
+an abstarct method fly().  Develop classes FlyingBird and NonFlyingBird. 
+Create class Eagle, Swallow, Penguin and Chicken. Create array Bird and add 
+different birds to it. Call fly() method for allof it. Output the information 
+about each type of created bird.
+
+2. Create an interface to the method calculatePay(), the base class Employee 
+with a string variable employeeld. Create two classes SalariedEmployee and 
+ContractEmployee, which implement interface and are inherited from the base 
+class. 
+	- Describe hourly paid workers in the relevant classes (one of the 
+	  children), and fixed paid workers (second child). 
+	- Describe the string variable socialSecurityNumber in the class 
+	  SalariedEmployee .
+	- Include a description of federalTaxIdmember in the class of 
+	  contractEmployee .
+	- The calculation formula for the "time-worker“ is: "the average 
+	  monthly salary = hourly rate * number of hours worked".
+	- For employees with a fixed payment the formula is: "the average 
+	  monthly salary = fixed monthly payment“
+	- Create an array of employees and add the employees with different 
+	  form of payment.
+	- Arrange the entire sequence of workers descending the average 
+	  monthly wage. Output the employee ID, name, and the average monthly 
+	  wage for all elements of the list.
+
+********Classwork 7*************************************************************
+********Collections*************************************************************
+
+1. Declare collection myCollection of 10 integers and fill it (from the console 
+or random).
+	- Find and save in list newCollection all positions of element more 
+	  than 5 in the collection. Print newCollection
+	- Remove from collection myCollection elements, which are greater 
+	  then 20. Print result
+	- Insert elements 1, -3, -4 in positions 2, 8, 5. Print result in the 
+	  format: “position – xxx, value of element – xxx”
+	- Sort and print collection .
+
+2. In the main() method declare map employeeMap of pairs <Integer, String>.
+	- Add to employeeMap seven pairs (ID, name) of some persons. Display 
+	  the map on the screen.
+	- Ask user to enter ID, then find and write corresponding name from 
+	  your map. If you can't find this ID - say about it to user (use 
+	  function containsKey()).
+	- Ask user to enter name, verify than you have name in your map and 
+	  write corresponding ID. If you can't find this name - say about it 
+	  to user (use function containsValue()). 
+
+********Homework 7**************************************************************
+
+1. Write parameterized methods union(Set set1, Set set2) and 
+intersect(Set set1, Set set2), realizing the operations of union and 
+intersection of two sets. Test the operation of these techniques on two 
+pre-filled sets. 
+
+2. Create map personMap and add to it ten persons of type 
+<String, String> (lastName, firstName).
+	- Output the entities of the map on the screen. 
+	- There are at less two persons with the same firstName among these 
+	  10 people?
+	- Remove from the map person whose firstName is ”Orest” (or other). 
+	  Print result.
+
+3. Write class Student that provides information about the name of the student 
+and his course. Class Student should consists of 
+	a) properties for access to these fields 
+	b) constructor with parameters
+	c) method printStudents (List students, Integer course), which 
+	   receives a list of students and the course number and prints to the 
+	   console the names of the students from the list, which are taught in 
+	   this course (use an iterator)
+	d) methods to compare students by name and by course
+	e) In the main() method 
+		- declare List students and add to the list five different 
+		  students
+		- display the list of students ordered by name
+		- display the list of students ordered by course.
+
+********Classwork 8*************************************************************
+********String, Regular Expression**********************************************
+
+1. Enter the two variables of type String. Determine whether the first 
+variable substring second. For example, if you typed «IT» and «IT Academy» you 
+must receive true.
+
+2. Enter surname, name and patronymic on the console as a variable of type 
+String. Output on the console:
+	- surnames and initials
+	- name
+	- name, middle name and last name
+
+3. The user name can be 3 to 15 characters of the Latin alphabet, numbers, and 
+underscores. Using regular expressions implement checking the user name for 
+validity. Input five names in the main method . Output a message to the console 
+of the validation of each of the entered names.
+
+********Homework 8**************************************************************
+
+1. Enter in the console sentence of five words. 
+	- display the longest word in the sentence
+	- determine the number of its letters
+	- bring the second word in reverse order
+
+2. Enter a sentence that contains the words between more than one space. 
+Convert all spaces, consecutive, one. For example, if we introduce the 
+sentence "I    am      learning     Java   Core», we have to get the 
+"I'm learning Java Core»
+
+3. Implement a pattern for US currency: the first symbol "$", then any number 
+of digits, dot and two digits after the dot. Enter the text from the console 
+that contains several occurrences of US currency. Display all occurrences on 
+the screen.
+
+********Classwork 9*************************************************************
+********Exception***************************************************************
+
+1. Create a method for calculating the area of a rectangle int squareRectangle 
+(int a, int b), which should throw an exception if the user enters negative 
+value. Input values a and b from console. Check the squareRectangle method in 
+the method main. Check to input nonnumeric value.
+
+2. Create a class Plants, which includes fields int size, Color color and 
+Type type, and constructor where these fields are initialized. Color and type 
+are Enum. Override the method toString( ). Create classes ColorException and 
+TypeException and describe there all possible colors and types of plants. 
+In the method main create an array of five plants. Check to work your 
+exceptions.
+
+********Homework 9**************************************************************
+
+UDEMY course "Java Tutorial for Complete Beginners": 
+https://www.udemy.com/java-tutorial/
+Complete lessons 38-42
+
+- Create method div(), which calculates the dividing of two double numbers. 
+   In main method input 2 double numbers and call this method. Catch all 
+exceptions. 
+- Write a method readNumber(int start, int end), that read from console integer 
+  number and return it, if it is in the range [start...end]. 
+
+  If an invalid number or non-number text is read, the method should throw an 
+  exception. 
+
+  Using this method write a method main(), that has to enter 10 numbers:
+	a1, a2, ..., a10, such that 1 < a1 < ... < a10 < 100
+- Refactor your previous homework (1-7) and try to handle all possible 
+  exceptions in your code.
+
+********Classwork 10************************************************************
+********Multithreading, IO Streams**********************************************
+
+1. Output text «I study Java» 10 times with the intervals of one second 
+(Thread.sleep(1000);).
+
+2. Output two messages «Hello, world» and «Peace in the peace» 5 times each 
+with the intervals of 2 seconds, and the second - 3 seconds. After printing 
+messages, print the text «My name is …»
+
+3. Prepare mytext.txt file with a lot of text inside.
+Read context from file into array of strings.
+Each array item contains one line from file.
+Complete next tasks:
+   1) count and write the number of symbols in every line.
+   2) find the longest and the shortest line. 
+   3) find and write only that lines, which consist of word «var»
+
+********Homework 10*************************************************************
+
+Register at http://www.betterprogrammer.com/ 
+Install JDK 6 or configure your IDE to use it: 
+http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads
+-javase6-419409.html#jdk-6u45-oth-JPR 
+Earn certificate with mark at least 75%
+
+1. Run three threads and output there different messages for 5 times. The 
+third thread supposed to start after finishing working of the two previous 
+threads.
+
+2. Cause a deadlock. Organize the expectations of ending a thread in main(), 
+and make the end of the method main() in this thread.
+
+3. Create a thread «one», which would start the thread «two», which has to 
+output its number («Thread number two») 3 times and create thread «three», 
+which would to output message «Thread number three» 5 times.
+
+4. Create file1.txt file with a text about your career.
+Read context from file into array of strings. Each array item contains one 
+line from file.
+Write in to the file2.txt
+   1) number of lines in file1.txt.
+   2) the longest line in file1.txt.
+   3) your name and birthday date.
